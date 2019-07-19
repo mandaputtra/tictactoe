@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe game</title>
+  <link rel='stylesheet prefetch' href='https://getbootstrap.com/2.3.2/assets/css/bootstrap.css'>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="tictactoe">
+    <h1>Tic Tac Toe</h1>
+    <select id="board-size">
+      <option value="3" selected disabled>Select Board Size</option>
+      <option value="3">3x3</option>
+      <option value="5">5x5</option>
+      <option value="7">7x7</option>
+      <option value="9">9x9</option>
+    </select>
+    <div class="input-prepend input-append">
+        <span class="add-on">X won</span><strong id="x-score" class="add-on">0</strong>
+        <span class="add-on">time(s)</span>
+    </div>
+    <div class="input-prepend input-append">
+      <span class="add-on">O won</span><strong id="o-score" class="add-on">0</strong>
+      <span class="add-on">time(s)</span>
+    </div>
+    <div id="gameboard"></div>
+    <div>
+      <span id="turn">TURN : PLAYER X</span>
+    </div>
+    <button class="btn btn-success btn-medium" id="restart">Restart</button>
+  </div>
+  <script src="./index.js"></script>
+</body>
+
+</html>

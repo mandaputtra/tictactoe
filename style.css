@@ -1,0 +1,32 @@
+.tictactoe {
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#restart {
+  margin: 1rem;
+  width: 200px;
+}
+
+#x-score {
+  width: 105px;
+}
+
+#o-score {
+  width: 105px;
+}
+
+table {
+  border-collapse:collapse;
+  margin: 1rem 0;
+}
+
+td {
+  background-color: #eee;
+  border: 3px solid white;
+  font-size:80px;
+  color:#000;
+  border-radius: 10px 10px 10px 10px;
+}
