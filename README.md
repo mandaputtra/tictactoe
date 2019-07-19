@@ -1,5 +1,15 @@
 # Tic Tac Toe Game
 
+A simple tic tac toe game
+
+## Install & Run
+
+```bash
+$ npm install
+
+$ npm start
+```
+
 ## WIP Feature
 - Make It Using Websockets
 
